@@ -1,85 +1,68 @@
 # 🌍 Global Development Dashboard
 
-## Project overview
-This project presents an interactive dashboard that explores global development indicators such as life expectancy, GDP per capita, population, and other socio-economic metrics at the country level. 
+## 📌 Project Overview
+This project analyzes global development indicators such as GDP per capita, life expectancy, inflation, and health metrics across countries.  
+The goal is to provide an interactive dashboard that helps compare countries and identify development patterns using data visualization.
 
-The goal is to help users:
-- Compare development levels across countries and regions
-- Identify patterns between economic and health indicators
-- Quickly understand which countries are performing well or lagging behind on key metrics
-
-The dashboard is aimed at data enthusiasts, students, and decision-makers who want an at-a-glance view of global development.
+This project was created as part of my data analytics portfolio.
 
 ---
 
-## Data description
-**Source:** Country-level development dataset (Excel file: `Country-development-raw.xlsx`)
-
-The dataset includes:
-- Country name
-- Region
-- Life expectancy
-- GDP per capita
-- Population
-- Additional development indicators
-
-Data was cleaned and prepared before visualization (see `docs/methodology.md` for details).
+## 📊 Dataset
+- Source: Kaggle – Country Development Indicators
+- Number of countries: XX
+- Key variables:
+  - GDP per capita
+  - Life expectancy
+  - Inflation
+  - Health expenditure
+  - Population
 
 ---
 
-## Tools and technologies
-- **Excel / Power BI / Tableau:** Data modeling and dashboard creation  
-- **Python (Pandas, NumPy):** Data cleaning and transformation (optional / if used)  
-- **Git & GitHub:** Version control and project documentation  
+## 🧰 Tools & Technologies
+- Data Visualization: Tableau / Power BI / Python (mention what YOU used)
+- Data Source: Excel (.xlsx)
+- Analysis: Descriptive statistics, clustering, comparison analysis
+- Version Control: Git & GitHub
 
 ---
 
-## Methodology
-1. **Data collection**
-   - Imported raw country development data from Excel into the BI tool.
-
-2. **Data cleaning**
-   - Removed duplicates and obvious errors
-   - Standardized country and region names
-   - Handled missing values appropriately
-   - Created cleaned dataset stored in `data/cleaned/`
-
-3. **KPI definition**
-   - Selected key indicators:
-     - Average life expectancy
-     - GDP per capita
-     - Population
-     - Development category (e.g., low / medium / high, if applicable)
-
-4. **Dashboard design**
-   - Created a clean, minimal layout with:
-     - Summary KPIs at the top
-     - A world map to compare countries
-     - Bar/line charts to compare indicators by region
-     - Filters for region, income group, and year (if available)
+## 📈 Dashboard Features
+- Compare countries based on development indicators
+- Identify clusters of countries with similar socio-economic conditions
+- Visualize relationships between health, inflation, and economic growth
+- Interactive filters by country and indicator
 
 ---
 
-## Dashboard features
-- **Interactive filters** for region, country, and (if available) year  
-- **KPI cards** summarizing key metrics  
-- **Map visual** to show development differences geographically  
-- **Comparative charts** to analyze relationships between GDP, life expectancy, and population  
-
-A static preview is available in `images/dashboard-overview.png`.
+## 🖼️ Dashboard Preview
+![Dashboard Screenshot](dashboard/dashboard_screenshots.png)
 
 ---
 
-## Key insights
-Some example insights derived from the dashboard:
-
-- Countries with higher GDP per capita tend to have higher life expectancy.
-- There are significant regional differences in both health and economic indicators.
-- Some countries achieve relatively high life expectancy despite moderate GDP, suggesting effective public health policies.
+## 🧠 Key Insights
+- Countries with higher health expenditure tend to have higher life expectancy
+- High inflation often correlates with lower development outcomes
+- Clustering reveals clear separation between developed, developing, and underdeveloped countries
 
 ---
 
+## 🚀 How to Use
+1. Download the dataset from the `data/` folder
+2. Open the dashboard file in Tableau / Power BI
+3. Use filters to explore countries and indicators
 
+---
 
-Regional disparities highlight development gaps.
-Population size does not directly correlate with development outcomes.
+## 📌 Future Improvements
+- Add time-series analysis
+- Deploy dashboard online
+- Add predictive modeling
+
+---
+
+## 👩‍💻 Author
+**Swetha Aswathaappa**  
+MSc Data Analytics  
+GitHub: https://github.com/aswathappaswetha-tech
