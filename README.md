@@ -46,7 +46,11 @@ This project was created as part of my data analytics portfolio.
 - High inflation often correlates with lower development outcomes
 - Clustering reveals clear separation between developed, developing, and underdeveloped countries
 
----
+---## 📊 Market & Policy Insights
+- Developing countries show high inflation and low health expenditure, indicating policy intervention needs
+- Developed countries cluster around low inflation and high life expectancy
+- NGOs and policymakers can use this dashboard to prioritize health funding
+
 
 ## 🚀 How to Use
 1. Download the dataset from the `data/` folder
