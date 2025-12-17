@@ -1,0 +1,51 @@
+Global Development Dashboard
+Interactive Data Visualization Project
+📌 Overview
+This project explores global development indicators across 100+ countries using an interactive dashboard. It visualizes relationships between life expectancy, GDP per capita, health expenditure, fertility rates, and child mortality, helping reveal global disparities and development patterns.
+The goal is to turn raw data into clear, actionable insights through effective data storytelling.
+
+📊 Key Features
+- World map showing life expectancy clusters
+- Top 10 GDP per capita ranking
+- KPI panel summarizing global averages
+- Health vs Life Expectancy scatter plot
+- Fertility vs Income scatter plot
+- Child mortality distribution
+- Color‑coded clusters and bubble sizes for intuitive comparison
+
+🛠 Tools & Technologies
+- Tableau / Power BI / Excel (choose the tool you used)
+- Data cleaning and preprocessing
+- Calculated fields and KPI design
+- Clustering and segmentation
+- Dashboard layout and storytelling
+
+📂 Dataset
+The dataset includes:
+- Life Expectancy
+- GDP per Capita
+- Health Expenditure
+- Total Fertility Rate
+- Child Mortality
+(Add a dataset link here if it’s publicly available.)
+
+🔍 Insights & Findings
+- Higher health expenditure is strongly associated with higher life expectancy
+- Income and fertility show an inverse relationship
+- Clear segmentation between high‑income and low‑income regions
+- Child mortality remains significantly higher in low‑income clusters
+
+🎯 What I Learned
+- Designing multi‑sheet dashboards with consistent formatting
+- Building KPIs and calculated fields
+- Applying clustering to segment countries
+- Improving color theory, layout, and user experience
+- Turning complex datasets into meaningful visual stories
+
+📸 Dashboard Preview
+(Add your dashboard screenshot here)
+![Global Development Dashboard](dashboard_preview.png)
+
+
+
+
