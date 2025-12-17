@@ -1,53 +1,85 @@
-This project presents an interactive dashboard that visualizes key global development metrics such as life expectancy, population, GDP, and other socio‑economic indicators. The goal is to help users explore patterns across countries and understand how development varies globally.
+# 🌍 Global Development Dashboard
 
-The dashboard is designed for:
-Students and analysts learning data visualization,
-Recruiters evaluating your analytics skills,
-Anyone interested in global development trends.
+## Project overview
+This project presents an interactive dashboard that explores global development indicators such as life expectancy, GDP per capita, population, and other socio-economic metrics at the country level. 
 
-## 📸 Dashboard Preview  
+The goal is to help users:
+- Compare development levels across countries and regions
+- Identify patterns between economic and health indicators
+- Quickly understand which countries are performing well or lagging behind on key metrics
 
-![Global Development Dashboard](dashboard_preview.png)
+The dashboard is aimed at data enthusiasts, students, and decision-makers who want an at-a-glance view of global development.
 
-# Repository structure
+---
 
-🧹 Data Description
-Dataset: Country-data.xlsx Includes country‑level indicators such as:
-Life expectancy
-Population
-GDP
-Development metrics
+## Data description
+**Source:** Country-level development dataset (Excel file: `Country-development-raw.xlsx`)
 
-🛠️ Tools & Technologies
-Tableau / Excel for dashboarding
-Python (Pandas, NumPy) for cleaning
-Excel for preprocessing
-GitHub for version control
+The dataset includes:
+- Country name
+- Region
+- Life expectancy
+- GDP per capita
+- Population
+- Additional development indicators
 
-🔍 Methodology
-A clear, professional workflow:
+Data was cleaned and prepared before visualization (see `docs/methodology.md` for details).
 
-1. Data Collection
-Imported the raw dataset from Excel.
+---
 
-2. Data Cleaning
-Removed missing values
-Standardized country names
-Created calculated fields (e.g., development categories)
+## Tools and technologies
+- **Excel / Power BI / Tableau:** Data modeling and dashboard creation  
+- **Python (Pandas, NumPy):** Data cleaning and transformation (optional / if used)  
+- **Git & GitHub:** Version control and project documentation  
 
-3. KPI Selection
-Average life expectancy
-GDP per capita
-Population distribution
+---
 
-4. Dashboard Design
-Clean, minimal layout
+## Methodology
+1. **Data collection**
+   - Imported raw country development data from Excel into the BI tool.
 
-Interactive filters
-Maps, bar charts, KPIs
+2. **Data cleaning**
+   - Removed duplicates and obvious errors
+   - Standardized country and region names
+   - Handled missing values appropriately
+   - Created cleaned dataset stored in `data/cleaned/`
 
-📈 Key Insights
+3. **KPI definition**
+   - Selected key indicators:
+     - Average life expectancy
+     - GDP per capita
+     - Population
+     - Development category (e.g., low / medium / high, if applicable)
 
-Countries with higher GDP per capita generally show higher life expectancy.
+4. **Dashboard design**
+   - Created a clean, minimal layout with:
+     - Summary KPIs at the top
+     - A world map to compare countries
+     - Bar/line charts to compare indicators by region
+     - Filters for region, income group, and year (if available)
+
+---
+
+## Dashboard features
+- **Interactive filters** for region, country, and (if available) year  
+- **KPI cards** summarizing key metrics  
+- **Map visual** to show development differences geographically  
+- **Comparative charts** to analyze relationships between GDP, life expectancy, and population  
+
+A static preview is available in `images/dashboard-overview.png`.
+
+---
+
+## Key insights
+Some example insights derived from the dashboard:
+
+- Countries with higher GDP per capita tend to have higher life expectancy.
+- There are significant regional differences in both health and economic indicators.
+- Some countries achieve relatively high life expectancy despite moderate GDP, suggesting effective public health policies.
+
+---
+
+
+
 Regional disparities highlight development gaps.
 Population size does not directly correlate with development outcomes.
