@@ -14,7 +14,7 @@ The goal is to turn raw data into clear, actionable insights through effective d
 - Color‑coded clusters and bubble sizes for intuitive comparison
 
 🛠 Tools & Technologies
-- Tableau / Power BI / Excel (choose the tool you used)
+- Tableau 
 - Data cleaning and preprocessing
 - Calculated fields and KPI design
 - Clustering and segmentation
@@ -27,7 +27,7 @@ The dataset includes:
 - Health Expenditure
 - Total Fertility Rate
 - Child Mortality
-(Add a dataset link here if it’s publicly available.)
+data/Country-development-raw.xlsx
 
 🔍 Insights & Findings
 - Higher health expenditure is strongly associated with higher life expectancy
@@ -43,8 +43,8 @@ The dataset includes:
 - Turning complex datasets into meaningful visual stories
 
 📸 Dashboard Preview
-(Add your dashboard screenshot here)
 ![Global Development Dashboard](dashboard_preview.png)
+
 
 
 
