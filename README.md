@@ -10,7 +10,7 @@ This project was created as part of my data analytics portfolio.
 
 ## 📊 Dataset
 - Source: Kaggle – Country Development Indicators
-- Number of countries: XX
+- Number of countries: 165
 - Key variables:
   - GDP per capita
   - Life expectancy
@@ -21,7 +21,7 @@ This project was created as part of my data analytics portfolio.
 ---
 
 ## 🧰 Tools & Technologies
-- Data Visualization: Tableau / Power BI / Python (mention what YOU used)
+- Data Visualization: Tableau 
 - Data Source: Excel (.xlsx)
 - Analysis: Descriptive statistics, clustering, comparison analysis
 - Version Control: Git & GitHub
@@ -54,7 +54,7 @@ This project was created as part of my data analytics portfolio.
 
 ## 🚀 How to Use
 1. Download the dataset from the `data/` folder
-2. Open the dashboard file in Tableau / Power BI
+2. Open the dashboard file in Tableau 
 3. Use filters to explore countries and indicators
 
 ---
