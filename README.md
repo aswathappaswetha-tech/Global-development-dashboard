@@ -10,23 +10,6 @@ Anyone interested in global development trends.
 ![Global Development Dashboard](dashboard_preview.png)
 
 # Repository structure
-Global-development-dashboard/
-│
-├── data/
-│   ├── raw/  
-│   │   └── Country-data.xlsx
-│   └── cleaned/
-│
-├── dashboard/
-│   ├── Dashboard.pbix  (or .twbx / .xlsx depending on tool)
-│   └── Dashboard screenshot.png
-│
-├── docs/
-│   ├── methodology.md
-│   ├── insights.md
-│   └── Global Development Dashboard.txt
-│
-├── README.md
 
 🧹 Data Description
 Dataset: Country-data.xlsx Includes country‑level indicators such as:
